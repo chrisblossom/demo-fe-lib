@@ -1,0 +1,20 @@
+//{
+//	"compilerOptions": {
+//		"outDir": "./__sandbox__/src/fe-dist/",
+//		"sourceMap": true,
+//		"strict": true,
+//		"module": "es6",
+//		"target": "es6",
+//		"jsx": "react"
+//	},
+//	"include": ["src", "global.d.ts"],
+//	"exclude": ["dist", "node_modules", "**/__sandbox__/**/*"]
+//}
+
+{
+	"extends": "./tsconfig",
+	"compilerOptions": {
+		"outDir": "./__sandbox__/src/fe-dist/",
+		"module": "es6"
+	}
+}
